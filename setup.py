@@ -5,7 +5,9 @@ setup(
     version='1.0',
     packages=find_packages(),
     install_requires=[
-        # List your dependencies here
+        'customtkinter',  # Example of a required package with a minimum version
+        'CTkMessagebox',  # Example of a required package with an exact version
+        'requests',     
     ],
     entry_points={
         'console_scripts': [
